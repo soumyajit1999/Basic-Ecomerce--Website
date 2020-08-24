@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Project2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>All Products - Soupy Store</title>
+
+</head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="img/logo2.png" width="300px" alt="logo">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="img/cart.png" width="30px" height="30px" alt="cart">
+                <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+    <!------------CART ITEMS DETAILS------------->   
+    <div class="small-container cart-page">
+
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="img/buy-1.jpg">
+                        <div>
+                            <h4>PUMA</h4>
+                            <h5>Red T-Shirt</h5>
+                            <small>Price: Rs.649</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number"value = "1" min="0" max="100"></td>
+                <td>Rs.649</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="img/buy-2.jpg">
+                        <div>
+                            <h4>HRX by Hrithik Roshan</h4>
+                            <h5>Men Running Shoes</h5>
+                            <small>Price: Rs.2034</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number"value = "1" min="0" max="100"></td>
+                <td>Rs.2034</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="img/buy-3.jpg">
+                        <div>
+                            <h4>HERE&NOW</h4>
+                            <h5>Men Printed Joggers</h5>
+                            <small>Price: Rs.800</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number"value = "1" min="0" max="100"></td>
+                <td>Rs.800</td>
+            </tr>
+        </table>
+
+            <div class="total-price">
+                <table>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>Rs.200</td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td>Rs.2029</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>Rs.2229</td>
+                    </tr>
+                </table>
+            </div>       
+    </div>
+    <!--FOOTER-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Anroid and ios Mobile Phone.</p>
+                    <div class="app-logo">
+                        <img src="img/play-store.png">
+                        <img src="img/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="img/logo2.png">
+                    <p>Our purpose is to sustainably make th Pleasure and Benefits of Sports Accessible to the Many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affilate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                        <li>Twitter</li> 
+                    </ul>
+                </div>
+            </div>
+        <!--FOR COPYRIGHT-->
+        <hr>
+        <p class="Copyright">Copyright 2020 - Soumyajit Sen<br>(deadlysoumojit)</p>
+    </div>
+</div>
+
+<!--JS FOR TOGGLE MENU-->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else{
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+</html>
