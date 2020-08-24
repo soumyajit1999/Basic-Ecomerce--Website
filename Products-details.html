@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Project2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>All Products - Soupy Store</title>
+
+</head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="img/logo2.png" width="300px" alt="logo">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="img/cart.png" width="30px" height="30px" alt="cart">
+                <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+<!----------SINGLE PRODUCTS DETAILS---------->
+        <div class="small-container single-product">
+            <div class="row">
+                <div class="col-2">
+                    <img src="img/gallery-1.jpg" width="100%" id="ProductImg">
+                    <div class="small-img-row">
+                        <div class="small-img-col">
+                            <img src="img/gallery-1.jpg" width="100%" class="small-img">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="img/gallery-2.jpg" width="100%" class="small-img">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="img/gallery-3.jpg" width="100%" class="small-img">
+                        </div>
+                        <div class="small-img-col">
+                            <img src="img/gallery-4.jpg" width="100%" class="small-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                <p>Home / T-Shirt</p>
+                <h1>Red Printed T-Shirt by PUMA</h1>
+                <h4 id="num">Rs.674</h4>
+                <select>
+                    <option>Select Size</option>
+                    <option>XXL</option>
+                    <option>XL</option>
+                    <option>L</option>
+                    <option>M</option>
+                    <option>S</option>
+                </select>
+                <input type="number" value="1"min="0" max="100">
+                <a href="Cart.html" class="Button">Add to Cart</a>
+                <h3>Product Details<i class="fa fa-indent" aria-hidden="true"></i></h3>
+                <br>
+                <p>Tomato red printed T-Shirt has a round neck, short sleeves</p>
+                <h4>Size & Fit</h4>
+                <p>The model(height 6') is wearing a size M</p>
+                <h4>Material and Care</h4>
+                <p>100% Cotton Wash</p>
+                <p>Machine Wash</p>
+                <h4>Complete the Look</h4>
+                <p>You'll love the softness and durability of this high-fashion PUMA tee. This mustard item can be teamed with fitted jeans for a clean look or lounge shorts for casual weekend wear.</p>
+                <hr>
+                <br>
+                <p>Product Code:<b>4921829</b></p>
+                <p>Sold by:<b>Omnitech Retail</b></p>
+                </div>
+            </div>
+        </div>
+
+<!--------------------TITLE------------------------->
+        <div class="small-container">
+            <div class="row row-2">
+                <h2>Related Products</h2>
+                <p>View More</p>
+            </div>
+        </div>
+
+
+
+
+<!--------------------PRODUCTS------------------------>
+    <div class="small-container">
+        <div class="row">
+            <div class="col-4"><img src="img/product-1.jpg" alt="product1">
+                <h4>PUMA</h4>
+                <h5>Red T-Shirt</h5>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>Rs.674</p>
+            </div>
+            <div class="col-4"><img src="img/product-2.jpg" alt="product1">
+                <h4>HRX by Hrithik Roshan</h4>
+                <h5>Men Running Shoes</h5>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <p>Rs.2034</p>
+            </div>
+            <div class="col-4"><img src="img/product-3.jpg" alt="product1">
+                <h4>HERE&NOW</h4>
+                <h5>Men Printed Joggers</h5>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>Rs.800</p>
+            </div>
+            <div class="col-4"><img src="img/product-4.jpg" alt="product1">
+                <h4>PUMA</h4>
+                <h5>Blue Printed T-Shirt</h5>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>   
+                </div>
+                <p>Rs.674</p>
+            </div>
+        </div>
+    </div>          
+    <!--FOOTER-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Anroid and ios Mobile Phone.</p>
+                    <div class="app-logo">
+                        <img src="img/play-store.png">
+                        <img src="img/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="img/logo2.png">
+                    <p>Our purpose is to sustainably make th Pleasure and Benefits of Sports Accessible to the Many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affilate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                        <li>Twitter</li> 
+                    </ul>
+                </div>
+            </div>
+        <!--FOR COPYRIGHT-->
+        <hr>
+        <p class="Copyright">Copyright 2020 - Soumyajit Sen<br>(deadlysoumojit)</p>
+    </div>
+</div>
+
+<!--JS FOR TOGGLE MENU-->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else{
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+<!--JS FOR  PRODUCT GALLERY-->
+    <script>
+        var ProductImg = document.getElementById("ProductImg");
+        var SmallImg = document.getElementsByClassName("small-img");
+
+        SmallImg[0].onclick = function()
+        {
+        ProductImg.src = SmallImg[0].src;
+        }
+        SmallImg[1].onclick = function()
+        {
+        ProductImg.src = SmallImg[1].src;
+        }
+        SmallImg[2].onclick = function()
+        {
+        ProductImg.src = SmallImg[2].src;
+        }
+        SmallImg[3].onclick = function()
+        {
+        ProductImg.src = SmallImg[3].src;
+        }
+
+    </script>
+
+</body>
+</html>

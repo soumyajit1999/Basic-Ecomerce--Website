@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Project2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>All Products - Soupy Store</title>
+
+</head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="img/logo2.png" width="300px" alt="logo">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="img/cart.png" width="30px" height="30px" alt="cart">
+                <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+    <!--Feature Products-->
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option>Default Shorting</option>
+                <option>Short by Price</option>
+                <option>Short by Popularity</option>
+                <option>Short by Rating</option>
+                <option>Short by Sale</option>
+            </select>
+        </div>
+        <div class="row">
+            <div class="col-4"><img src="img/product-1.jpg" alt="product1">
+                <a href="Products-details.html"h4>PUMA</h4></a>
+                <h5>Red T-Shirt</h5>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>Rs.674</p>
+            </div>
+            <div class="col-4"><img src="img/product-2.jpg" alt="product1">
+                <h4>HRX by Hrithik Roshan</h4>
+                <h5>Men Running Shoes</h5>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <p>Rs.2034</p>
+            </div>
+            <div class="col-4"><img src="img/product-3.jpg" alt="product1">
+                <h4>HERE&NOW</h4>
+                <h5>Men Printed Joggers</h5>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>Rs.800</p>
+            </div>
+            <div class="col-4"><img src="img/product-4.jpg" alt="product1">
+                <h4>PUMA</h4>
+                <h5>Blue Printed T-Shirt</h5>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>   
+                </div>
+                <p>Rs.674</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4"><img src="img/product-5.jpg" alt="product1">
+                <h4>ADIDAS Originals</h4>
+                <h5>Men Sneakers</h5>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>Rs.1499</p>
+            </div>
+            <div class="col-4"><img src="img/product-6.jpg" alt="product1">
+                <h4>PUMA</h4>
+                <h5>Printed logo T-Shirt</h5>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <p>Rs.779</p>
+            </div>
+            <div class="col-4"><img src="img/product-7.jpg" alt="product1">
+                <h4>HRX by Hrithik Roshan</h4>
+                <h5>Active Men Set of 3 Ankle Length</h5>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>Rs.300</p>
+            </div>
+            <div class="col-4"><img src="img/product-8.jpg" alt="product1">
+                <h4>Fossil</h4>
+                <h5>Men Chronograph Watch</h5>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>   
+                </div>
+                <p>Rs.7871</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4"><img src="img/product-9.jpg" alt="product1">
+                <h4>Roadster</h4>
+                <h5>Men Analogue Watch</h5>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>Rs.979</p>
+            </div>
+            <div class="col-4"><img src="img/product-10.jpg" alt="product1">
+                <h4>HRX by Hrithik Roshan</h4>
+                <h5>Men Running Shoes</h5>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <p>Rs.2034</p>
+            </div>
+            <div class="col-4"><img src="img/product-11.jpg" alt="product1">
+                <h4>Roadster</h4>
+                <h5>Men Walking Shoes</h5>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p>Rs.1449</p>
+            </div>
+            <div class="col-4"><img src="img/product-12.jpg" alt="product1">
+                <h4>NIKE</h4>
+                <h5>Men Joggers</h5>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>   
+                </div>
+                <p>Rs.774</p>
+            </div>
+        </div>
+        <div class="page-button">
+            <a href="Products.html"><span>1</span></a>
+            <a href="Product1.html"><span>2</span></a>
+            <a href="Products2.html"><span>3</span></a>
+            <span>4</span>
+            <span>&#8594;</span>
+        </div>
+    </div>          
+    <!--FOOTER-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Anroid and ios Mobile Phone.</p>
+                    <div class="app-logo">
+                        <img src="img/play-store.png">
+                        <img src="img/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="img/logo2.png">
+                    <p>Our purpose is to sustainably make th Pleasure and Benefits of Sports Accessible to the Many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affilate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                        <li>Twitter</li> 
+                    </ul>
+                </div>
+            </div>
+        <!--FOR COPYRIGHT-->
+        <hr>
+        <p class="Copyright">Copyright 2020 - Soumyajit Sen<br>(deadlysoumojit)</p>
+    </div>
+</div>
+
+<!--JS FOR TOGGLE MENU-->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else{
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+</body>
+</html>
